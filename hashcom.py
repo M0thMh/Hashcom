@@ -38,11 +38,8 @@ def hash_file(filename, crypt):
           chunk = 0
           while chunk != b'':
                chunk = file.read(1024)
-          h.update(chunk)
+               h.update(chunk)
      return h.hexdigest()
-
-
-
 
 
 
